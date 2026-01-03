@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.ui {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 360px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(138,43,226,0.9);
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 12px;
+  border: none;
+}
+
+button {
+  background: linear-gradient(135deg, #7f00ff, #00c6ff);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+img {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 15px;
+}

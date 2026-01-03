@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🪐 AI Planet Generator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<canvas id="galaxy"></canvas>
+
+<div class="ui">
+  <h1>🪐 AI Planet Generator</h1>
+  <p>Type a planet name (Solar System)</p>
+
+  <form method="POST">
+    <input type="text" name="planet" placeholder="planet name" required>
+    <button type="submit">Generate Planet</button>
+  </form>
+
+  {% if image %}
+    <img src="{{ image }}">
+  {% endif %}
+</div>
+
+<script src="/static/galaxy.js"></script>
+</body>
+</html>
